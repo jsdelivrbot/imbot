@@ -247,26 +247,27 @@
     };
 
     var botCreator = 'Yemasthui';
-    var botMaintainer = 'Benzi'
-    var botCreatorIDs = ['3851534', '4105209'];
+    var botMaintainer = 'Benzi';
+    var botEditor = 'Kenan'
+    var botCreatorIDs = ['3851534', '4105209','3626941'];
 
     var basicBot = {
         version: '1.0',
         status: false,
-        name: 'California-Bot',
+        name: 'Bot',
         loggedInID: null,
-        scriptLink: 'https://rawgit.com/Kenan-plugdj/idk/master/CMBot.js',
+        scriptLink: 'https://rawgit.com/The-Crixus/imbot/master/Bot.js',
         cmdLink: 'https://rawgit.com/Kenan-plugdj/idk/master/commands.md',
-        chatLink: 'https://rawgit.com/Kenan-plugdj/idk/master/pt-br.json',
+        chatLink: 'https://rawgit.com/The-Crixus/imbot/master/pt-br.json',
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'California-Bot',
+            botName: 'Bot',
             language: 'portuguese',
-            chatLink: 'https://rawgit.com/Kenan-plugdj/idk/master/pt-br.json',
-            scriptLink: 'https://rawgit.com/Kenan-plugdj/idk/master/CMBot.js',
+            chatLink: 'https://rawgit.com/The-Crixus/imbot/master/pt-br.json',
+            scriptLink: 'https://rawgit.com/The-Crixus/imbot/master/Bot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 100, // 0-100
@@ -286,7 +287,7 @@
             cycleGuard: true,
             maximumCycletime: 10,
             voteSkip: true,
-            voteSkipLimit: 4,
+            voteSkipLimit: 5,
             historySkip: true,
             timeGuard: true,
             maximumSongLength: 7,
@@ -307,9 +308,9 @@
                 ["sound", "The song had bad sound quality or no sound. "],
                 ["theme", "This song does not fit the room theme. "],
                 ["un", "The song was unavailable for some users. "],
-                ["histórico", "Você tocou uma música que está no histórico, observe antes de tocar. "],
+                ["histórico", "Você tocou uma música que estava no histórico, observe antes de tocar. "],
                 ["ind", "A música que você tocou estava indisponível para alguns usuários. "],
-                ["nudes", "A música continha conteúdo impróprio (NSFW). "],
+                ["nudes", "A música continha conteúdo impróprio +18 (NSFW). "],
                 ["som", "A música que você tocou tinha qualidade de som ruim ou sem som. "],
                 ["tema", "A música que você tocou não se encaixa no tema da sala. "]
             ],
@@ -1370,10 +1371,13 @@
                 basicBot.room.roomstats.chatmessages++;
             },
             spam: [
-                'arrombado', 'da puta', 'spoder', 'mafia', 'aheu', 'porra', 'caralho', 'buceta', 'fuckadmins', 'affff', 'vaisefoder', 'huenaarea',
-                'hitler', 'merda', 'huehue', 'hue', 'huehuehue', 'merda', 'puta', 'mulher', 'retarda', 'caralho', 'ppk',
-                'filho da puta', 'fuder', 'foder', 'cú', 'pinto', 'desgraça', 'ahue', 'modafuka', 'modafoka', 'mudafuka', 'mudafoka', 
-                'arrombada', 'biscate', 'safada', 'otario', 'besta', 'cachorra', 'idiota', 'baitola', 'cuzão', 'sonsa'
+                 'hueh', 'arrombado', 'filho',  'brbr', 'da puta', 'heu', 'brbr', 'spoder', 'mafia', 'zuera', 'zueira', 'broxa',
++                'zueria', 'aheu', 'porra', 'caralho', 'buceta', 'zoeira', 'fuckadmins', 'affff', 'vaisefoder', 'huenaarea',
++                'hitler', 'merda', 'hue', 'merda', 'pqp', 'puta', 'retarda', 'caralho', 'filha', 'ppk', 'teu cu', 'fdp', 'idiota',
+                 'otário', 'otária', 'tapado', 'tonto', 'viadinho', 'filho da puta', 'fuder', 'foder', 'hua', 'cú', 'cu', 'rola', 
+                 'pau', 'meu pau', 'meu ovo', 'pinto', 'desgraça', 'ahue', 'modafuka', 'modafoka', 'mudafuka', 'mudafoka', 'arrombada', 
++                'biscate', 'burra', 'safada', 'otario', 'besta', 'cachorra', 'idiota', 'baitola', 'cuzão', 'sonsa', 'gay', 'viado', 
+                 'puto','bixa', 'bicha', 'seu cu', 'acéfalo', 'babaca'
             ],
             curses: [
                 'nigger', 'faggot', 'nigga', 'niqqa', 'motherfucker', 'modafocka'
